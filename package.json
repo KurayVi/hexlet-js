@@ -1,0 +1,12 @@
+{
+  "name": "hexlet",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "My first Hexlet project (not first tbh)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
