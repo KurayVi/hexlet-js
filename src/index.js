@@ -1,12 +1,10 @@
-import _ from 'lodash'
-
-export default function mainfunction() {
-  const x = (a, b) => {
-    const c = a + b
-    return c
+const capitalize = (text) => {
+  if (text === '') {
+    return ''
   }
-  const result = x(5, 3)
-  console.log('Result:', result)
-
-  return 'The function was completed successfully.'
+  const firstChar = text[0].toUpperCase()
+  const restSubstring = text.slice(1)
+  return `${firstChar}${restSubstring}`
 }
+
+export default capitalize
